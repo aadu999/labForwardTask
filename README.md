@@ -6,4 +6,12 @@ Though I've worked with NodeJS and C++ in the past, never wrote an addon. <br> A
 
 ---
 
+The Entry point of the program is main.js, the program can be executed by the following command
+```sh 
+git clone https://github.com/aadu999/labForwardTask.git
+cd labForwardTask
+npm install
+node .
+```
+Because of the time limitations I've not documented it properly and neither I've written the test cases.
 
