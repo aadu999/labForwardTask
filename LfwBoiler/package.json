@@ -1,0 +1,29 @@
+{
+  "name": "labfw_boiler",
+  "version": "1.0.0",
+  "description": "LabForward Task to build a interface using N-API and C++ Addon",
+  "main": "main.js",
+  "gypfile": true,
+  "scripts": {
+    "pre-publish": "npm run build",
+    "build": "node-gyp rebuild",
+    "test": "npm runn build && node test"
+  },
+  "dependencies": {
+    "nan": "^2.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadu999/labForwardTask.git"
+  },
+  "keywords": [
+    "Labforward",
+    "Addon"
+  ],
+  "author": "Adarsh Raveendran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aadu999/labForwardTask/issues"
+  },
+  "homepage": "https://github.com/aadu999/labForwardTask#readme"
+}

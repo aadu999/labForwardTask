@@ -1,0 +1,23 @@
+{
+  "name": "lab_boiler",
+  "version": "1.0.0",
+  "description": "LabForward Task to build a interface using N-API and C++ Addon",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadu999/labForwardTask.git"
+  },
+  "keywords": [
+    "LabForward",
+    "Addon"
+  ],
+  "author": "Adarsh Raveendran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aadu999/labForwardTask/issues"
+  },
+  "homepage": "https://github.com/aadu999/labForwardTask#readme"
+}
