@@ -9,7 +9,8 @@ Though I've worked with NodeJS and C++ in the past, never wrote an addon. <br> A
 The Entry point of the program is main.js, the program can be executed by the following command
 ```sh 
 git clone https://github.com/aadu999/labForwardTask.git
-cd labForwardTask
+cd labForwardTask/LfwBoiler
+cd ..
 npm install
 node .
 ```

@@ -4,8 +4,8 @@
   "description": "LabForward Task to build a interface using N-API and C++ Addon",
   "main": "main.js",
   "scripts": {
-    "install": "npm run build",
-    "build": "cd LfwBoiler && node-gyp rebuild",
+    "install": "cd LfwBoiler && npm run build",
+    "build": "node-gyp rebuild",
     "test": "npm run build && node test"
   },
   "repository": {
